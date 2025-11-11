@@ -1,4 +1,3 @@
-/* Fuentes y reset */
 body, html {
     margin:0;
     padding:0;
@@ -7,7 +6,6 @@ body, html {
     color:#333;
 }
 
-/* Botones */
 button, .btn {
     background-color:#D4AF37; 
     color:#000;
@@ -24,7 +22,6 @@ button:hover, .btn:hover {
     background-color:#b9972c;
 }
 
-/* Contenedores */
 .contenedor, .contenedor-inicio {
     max-width:500px;
     margin:50px auto;
@@ -35,7 +32,6 @@ button:hover, .btn:hover {
     text-align:center;
 }
 
-/* Página de inicio */
 .inicio {
     background:url('imagenes/reloj_fondo.jpg') center/cover no-repeat;
     height:100vh;
@@ -50,7 +46,6 @@ button:hover, .btn:hover {
     justify-content:center;
 }
 
-/* Dashboard y menú */
 .menu-principal {
     display:flex;
     flex-wrap:wrap;
@@ -74,7 +69,6 @@ button:hover, .btn:hover {
     box-shadow:0 15px 30px rgba(0,0,0,0.2);
 }
 
-/* Catálogo y carrito */
 .catalogo, .carrito-lista {
     display:flex;
     flex-wrap:wrap;
@@ -99,7 +93,6 @@ button:hover, .btn:hover {
     border-radius:10px;
 }
 
-/* Formularios */
 input, textarea {
     width:90%;
     padding:10px;
@@ -108,7 +101,6 @@ input, textarea {
     border:1px solid #ccc;
 }
 
-/* Responsivo */
 @media(max-width:600px){
     .menu-principal {
         flex-direction:column;
@@ -118,3 +110,4 @@ input, textarea {
         width:90%;
     }
 }
+
