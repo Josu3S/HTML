@@ -217,9 +217,5 @@ footer {
 <a href="dashboard.php" class="btn">Volver al inicio</a>
 </main>
 
-<footer>
-    © 2025 Relojería Elegance. Todos los derechos reservados.
-</footer>
-
 </body>
 </html>

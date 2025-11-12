@@ -129,9 +129,5 @@ $nombre = htmlspecialchars($_SESSION['usuario_nombre']);
         <a href="carrito.php" class="card">🛒 Mi carrito</a>
         <a href="ordenes.php" class="card">📜 Historial</a>
     </main>
-
-    <footer>
-        © <?php echo date("Y"); ?> Relojería Elegance. Todos los derechos reservados.
-    </footer>
 </body>
 </html>

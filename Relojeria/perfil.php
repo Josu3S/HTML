@@ -27,7 +27,7 @@ $stmt->close();
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Perfil - Relojería Elegance</title>
+<title>Perfil - Relojería Tiempo Exacto</title>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 <style>
     body {
@@ -140,7 +140,7 @@ $stmt->close();
 <body>
 
 <header>
-    <h1>Relojería Elegance ⌚</h1>
+    <h1>Relojería Tiempo Exacto</h1>
     <div class="user-info">
         <span><?php echo htmlspecialchars($nombre); ?></span>
         <a href="logout.php" class="logout-btn">Cerrar sesión</a>
@@ -153,10 +153,5 @@ $stmt->close();
     <p><b>Email:</b> <?php echo htmlspecialchars($email); ?></p>
     <a href="dashboard.php" class="boton-volver">Volver al inicio</a>
 </div>
-
-<footer>
-    © <?php echo date("Y"); ?> Relojería Elegance. Todos los derechos reservados.
-</footer>
-
 </body>
 </html>

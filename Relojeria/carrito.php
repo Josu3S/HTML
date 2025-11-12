@@ -269,9 +269,5 @@ while($fila=$items->fetch_assoc()):
 
 <a href="dashboard.php" class="btn">Volver al inicio</a>
 
-<footer>
-    © <?php echo date("Y"); ?> Relojería Elegance. Todos los derechos reservados.
-</footer>
-
 </body>
 </html>
